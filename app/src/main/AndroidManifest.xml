@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="python.app.quizpython">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Result_txt"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+
+        <activity android:name=".AboutMe">
+                 <intent-filter>
+                     <action android:name='android.intent.action.VIEW'></action>
+                     <category android:name='android.intent.category.DEFAULT' > </category>
+                     <category android:name='android.intent.category.BROWSABLE' > </category>
+
+                     <data android:scheme="https"
+                         android:host="www.linkedin.com/in/enric-roda-92a721188"></data>
+                     <data android:scheme="http"
+                         android:host="www.linkedin.com/in/enric-roda-92a721188"></data>
+
+
+
+
+                 </intent-filter>
+        </activity>
+
+
+        <activity android:name=".TornaEscollir"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+
+        <activity android:name=".Resultatqq2"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"/>
+
+                <activity android:name=".textActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"/>
+
+        <activity android:name=".QQ2"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"/>
+
+        <activity android:name=".ChoseLevel"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"/>
+
+        <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".QuizQuestions"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

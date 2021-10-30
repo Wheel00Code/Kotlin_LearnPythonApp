@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizPython</string>
+    <string name="about_me">ABOUT ME</string>
+    <string name="link"><a href="www.linkedin.com/in/enric-roda-92a721188/">Linkedin: Enric Roda</a></string>
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoseLevel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/wc_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="WELCOME BACK"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold">
+
+
+
+        </TextView>
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity=""
+            android:text="Choose another level of difficulty:"
+            android:textColor="#363A43"
+            android:textSize="22sp"
+            >
+
+        </TextView>
+
+
+
+        <Button
+            android:id="@+id/lv_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="Level One">
+
+        </Button>
+
+        <Button
+            android:id="@+id/lv_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="Level Two">
+
+        </Button>
+
+        <Button
+            android:id="@+id/lv_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/default_option_border_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="Level Three">
+
+        </Button>
+
+        <Button
+            android:id="@+id/sobre_mee"
+            android:layout_width="342dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:text="About me">
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

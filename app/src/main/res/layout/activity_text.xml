@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".QuizQuestions">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Aqui va la pregunta:"
+            android:textColor="#363A43"
+            android:textSize="22sp"
+            android:layout_marginBottom="80dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/ll_progress_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressBara"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progress="0"
+                android:indeterminate="false">
+            </ProgressBar>
+            <TextView
+                android:id="@+id/tv_progressa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColorHint="#7A8089"
+                android:textSize="14sp"
+                tools:text="0/10">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/resp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:hint="Write the answer here"
+            android:background="#D3D3D3">
+
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/showan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="#7A8089"
+            android:textSize="18sp"
+            tools:text="The correct answer is: ">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@color/colorPrimary"
+            android:text="SUBMIT"
+            android:textColor="@android:color/white"
+            android:textSize="18sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/next_quest"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginLeft="1000dp"
+            android:background="@color/colorPrimary"
+            android:text="Next Question"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:visibility="invisible">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

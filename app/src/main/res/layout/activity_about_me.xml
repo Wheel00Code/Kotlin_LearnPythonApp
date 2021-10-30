@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/Abt_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="ABOUT ME:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+
+
+    </TextView>
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity=""
+        android:text="My name is Enric, I'm studying business and technology at UAB (Universitat Autonoma de Barcelona). During the last 2 years I started learning coding online, first I started with Kotlin and now I'm more focus in Python. In the last year I have been learning machine learning and data analysis. Nowadays I have a few projects posted in my github , you will see it and more social networks to contact me below.
+
+Thank you for downloading it, and I hope you enjoyed the app."
+        android:textColor="#363A43"
+        android:textSize="16sp">
+
+    </TextView>
+        <TextView
+            android:id="@+id/Conta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="Contact me:"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            android:textStyle="bold">
+
+
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/correu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="mail: enricrodamoya@gmail.com"
+            android:textSize="16sp">+
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Insta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="Github: github.com/Wheel00Code"
+            android:textSize="16sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/GitHub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="Instagram: instagram.com/kik_bot_/"
+            android:textSize="16sp">
+        </TextView>
+        <TextView
+            android:id="@+id/linkeding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="Linkedin: linkedin.com/in/enric-roda-92a721188/"
+            android:textSize="16sp">
+        </TextView>
+
+
+
+
+        <Button
+            android:id="@+id/tornar"
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="BACK">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

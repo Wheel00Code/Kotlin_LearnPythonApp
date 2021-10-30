@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoresultat"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Your Score is:"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="8"
+        android:textColor="@android:color/black"
+        android:textSize="50dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hola"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Thank you so much for practicing on my app, I hope you had learn "
+        android:textSize="18dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:gravity="center"
+        android:textColor="@android:color/black">
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:text="back"
+            android:gravity="center">
+
+        </Button>
+
+        <Button
+            android:id="@+id/Neext"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:text="Level 2"
+            android:gravity="center">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
